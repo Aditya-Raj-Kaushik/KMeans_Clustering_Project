@@ -1,0 +1,36 @@
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+**/.ipynb_checkpoints
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore log and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore datasets (if large or sensitive)
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Ignore reports and outputs
+reports/*.png
+reports/*.txt
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore dependency files
+*.egg-info/
+*.DS_Store
