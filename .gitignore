@@ -15,11 +15,14 @@ __pycache__/
 *.log
 *.tmp
 *.bak
-
 # Ignore datasets (if large or sensitive)
 data/*.csv
 data/*.xlsx
 data/*.json
+
+# Allow tracking of kmeans_clustered_data.csv
+!data/kmeans_clustered_data.csv
+
 
 # Ignore reports and outputs
 reports/*.png
